@@ -3,7 +3,7 @@
 ## Demo
 
 See demo on github pages
-[VanillaJs Image Gallery]()
+[VanillaJs Image Gallery](https://kamalheydari.github.io/vanillaJs-image-gallery/)
 
 ## Using
 
