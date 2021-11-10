@@ -9,6 +9,6 @@ See demo on github pages
 
 - vanillaJs
 - HMTML5
-  \_ CSS3
+- CSS3
 
 ![demo screenshot](demo.png)
