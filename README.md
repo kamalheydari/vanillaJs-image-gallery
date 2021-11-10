@@ -4,6 +4,7 @@
 
 See demo on github pages
 [VanillaJs Image Gallery](https://kamalheydari.github.io/vanillaJs-image-gallery/)
+![demo screenshot](demo.png)
 
 ## Using
 
@@ -11,4 +12,4 @@ See demo on github pages
 - HMTML5
 - CSS3
 
-![demo screenshot](demo.png)
+
