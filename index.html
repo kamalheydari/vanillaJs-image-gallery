@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VanillaJs Image Gallery</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <!-- fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="section nature">
+      <img
+        src="./assets/images/autumn (1).jpg"
+        title="autumn (1)"
+        class="img"
+        data-id="1"
+        alt="autumn"
+      />
+      <img
+        src="./assets/images/autumn (2).jpg"
+        title="autumn (2)"
+        class="img"
+        data-id="2"
+        alt="autumn"
+      />
+      <img
+        src="./assets/images/autumn (3).jpg"
+        title="autumn (3)"
+        class="img"
+        data-id="3"
+        alt="autumn"
+      />
+      <img
+        src="./assets/images/autumn (4).jpg"
+        title="autumn (4)"
+        class="img"
+        data-id="4"
+        alt="autumn"
+      />
+      <img
+        src="./assets/images/autumn (5).jpg"
+        title="autumn (5)"
+        class="img"
+        data-id="5"
+        alt="autumn"
+      />
+      <img
+        src="./assets/images/autumn (6).jpg"
+        title="autumn (6)"
+        class="img"
+        data-id="6"
+        alt="autumn"
+      />
+    </section>
+
+    <section class="section city">
+      <img
+        src="./assets/images/ocean (1).jpg"
+        title="ocean (1)"
+        data-id="1"
+        alt="ocean"
+        class="img"
+      />
+      <img
+        src="./assets/images/ocean (2).jpg"
+        title="ocean (2)"
+        data-id="2"
+        alt="ocean"
+        class="img"
+      />
+      <img
+        src="./assets/images/ocean (3).jpg"
+        title="ocean (3)"
+        data-id="3"
+        alt="ocean"
+        class="img"
+      />
+      <img
+        src="./assets/images/ocean (4).jpg"
+        title="ocean (4)"
+        data-id="4"
+        alt="ocean"
+        class="img"
+      />
+      <img
+        src="./assets/images/ocean (5).jpg"
+        title="ocean (5)"
+        data-id="5"
+        alt="ocean"
+        class="img"
+      />
+      <img
+        src="./assets/images/ocean (6).jpg"
+        title="ocean (6)"
+        data-id="6"
+        alt="ocean"
+        class="img"
+      />
+    </section>
+    <div class="modal">
+      <button class="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-content">
+        <button class="prev-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="next-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <img src="" class="main-img" alt="" />
+        <h3 class="image-name">image name</h3>
+        <div class="modal-images"></div>
+      </div>
+    </div>
+    <!-- javascript -->
+    <script src="./assets/scripts/app.js"></script>
+  </body>
+</html>
